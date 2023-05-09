@@ -42,7 +42,7 @@ if(args.j) {
 if(data.daily.precipitation_hours[days] == 0) {
     galoshes = "You will not need your galoshes ";
 } else {
-    galoshes = "You might need your galoshes";
+    galoshes = "You might need your galoshes ";
 }
 
 if (days == 0) {
