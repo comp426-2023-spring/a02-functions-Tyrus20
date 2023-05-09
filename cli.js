@@ -34,3 +34,20 @@ if(args.j) {
         process.exit(1);
     }
 }
+
+const days = args.d;
+const precipitation = data.daily.precipitation_hours[days];
+
+if(precipitation == 0) {
+    console.log("You will not need your galoshes");
+} else {
+    console.log("You might need your galoshes");
+}
+
+if (days == 0) {
+    console.log("today.");
+} else if (days == 1) {
+    console.log("tomorrow.");
+} else {
+    console.log("in " + days + " days.");
+}
