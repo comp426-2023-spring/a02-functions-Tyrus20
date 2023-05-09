@@ -5,7 +5,7 @@
     "galosh.js": "./cli.js"
   },
   "type": "module",
-  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "description": "Assignment 02 - galoshes",
   "main": "index.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
